@@ -1,43 +1,28 @@
 {
-  "name": "hexo-include",
-  "version": "1.1.0",
-  "description": "A Hexo plugin for including raw content of any text file into a post",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pirtleshell/hexo-include.git"
-  },
-  "author": {
-    "name": "Robert Pirtle",
-    "email": "astropirtle@gmail.com",
-    "url": "pirtle.xyz"
-  },
-  "main": "lib/index.js",
-  "keywords": [
-    "hexo",
-    "tag",
-    "include",
-    "insert"
-  ],
-  "bugs": {
-    "url": "https://github.com/pipirt/hexo-include/issues"
-  },
-  "homepage": "https://github.com/pipirt/hexo-include#readme",
-  "devDependencies": {
-    "babel-register": "^6.16.3",
-    "chai": "^3.5.0",
-    "eslint-config-hexo": "^1.0.3",
-    "hexo": "^3.2.2",
-    "hexo-fs": "^0.1.6",
-    "mocha": "^3.1.1",
-    "xo": "^0.17.0"
+  "name": "hexo-vinclude",
+  "version": "1.0.0",
+  "description": "include source file to markdown file",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
-    "test": "xo && mocha test/test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "xo": {
-    "extends": "hexo",
-    "root": true,
-    "globals": ["hexo"]
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitock/hexo-Vinclude.git"
+  },
+  "keywords": [
+    "hexo",
+    "include",
+    "sourcecode"
+  ],
+  "author": "KxMihr680",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitock/hexo-Vinclude/issues"
+  },
+  "homepage": "https://github.com/vitock/hexo-Vinclude#readme"
 }
