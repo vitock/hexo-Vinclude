@@ -2,7 +2,7 @@
   "name": "hexo-vinclude",
   "version": "1.0.0",
   "description": "include source file to markdown file",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
