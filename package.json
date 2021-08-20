@@ -1,0 +1,43 @@
+{
+  "name": "hexo-include",
+  "version": "1.1.0",
+  "description": "A Hexo plugin for including raw content of any text file into a post",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirtleshell/hexo-include.git"
+  },
+  "author": {
+    "name": "Robert Pirtle",
+    "email": "astropirtle@gmail.com",
+    "url": "pirtle.xyz"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "hexo",
+    "tag",
+    "include",
+    "insert"
+  ],
+  "bugs": {
+    "url": "https://github.com/pipirt/hexo-include/issues"
+  },
+  "homepage": "https://github.com/pipirt/hexo-include#readme",
+  "devDependencies": {
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "eslint-config-hexo": "^1.0.3",
+    "hexo": "^3.2.2",
+    "hexo-fs": "^0.1.6",
+    "mocha": "^3.1.1",
+    "xo": "^0.17.0"
+  },
+  "scripts": {
+    "test": "xo && mocha test/test.js"
+  },
+  "xo": {
+    "extends": "hexo",
+    "root": true,
+    "globals": ["hexo"]
+  }
+}
